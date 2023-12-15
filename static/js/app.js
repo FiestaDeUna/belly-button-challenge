@@ -42,14 +42,6 @@ function fillMetaData(sample) {
 
     panel.html(''); 
 
-    // use object.entries to return an array of key-value pairs 
-
-    // let entries = Object.entries(initChoice); 
-
-    //iterate through 'entries' to populate metadata 
-  
-    //line 53 - 54 provided by instructor during office hours 
-
     for (key in initChoice){
         panel.append("h6").text(`${key.toUpperCase()}: ${initChoice[key]}`);
       };
